@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev-server": "webpack-dev-server",
     "electron": "electron .",
+    "build:dev":"webpack",
     "build:prod":"webpack -p --env production",
     "packager": "electron-packager . --platform=darwin --electron-version=1.7.9  --overwrite"
   },
